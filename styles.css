@@ -133,6 +133,7 @@ main {
   color: #edf0f1;
   text-decoration: none;
   background-color: #24252a;
+  padding: 0px 20px;
 }
 
 footer {
@@ -142,4 +143,12 @@ footer {
   font-weight: 500;
   color: #edf0f1;
   text-decoration: none;
+  text-align: center;
+}
+
+footer a {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
 }
