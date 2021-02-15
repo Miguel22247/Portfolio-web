@@ -128,9 +128,18 @@ header {
 }
 
 main {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
+  background-color: #24252a;
 }
 
 footer {
   background-color: #24252a;
   color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #edf0f1;
+  text-decoration: none;
 }
