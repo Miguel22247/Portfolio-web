@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
-  <link rel="shortcut icon" href="">
+  <link rel="shortcut icon" href="https://imgur.com/6WNP8MB.png">
 </head>
 <body>
   <header>
     <a class="logo" href="index.html">
-      <img src="" alt="logo">
+      <img src="./images/logo.svg" alt="logo">
     </a>
     <nav>
       <ul class="nav_links">
@@ -21,7 +21,30 @@
   </header>
 
   <main>
-    <h3>Welcome to my portfolio</h3>
+    <h3>Contact</h3>
+    <div class="container">
+      <form action="action_page.php">
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+    
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+        <input type="submit" value="Submit">
+    
+      </form>
+    </div>
   </main>
 
   <footer>
@@ -29,6 +52,7 @@
     <div class="right">
     <a href="https://www.twitter.com/miguelpacheco_"><img class="footer_t" src="https://i.imgur.com/QXiLYye.png" alt="Twitter"/></a>
     <a href="https://www.linkedin.com/in/miguel-pacheco-5229131b5"><img class="footer_p" src="https://imgur.com/UeibTkm.png" alt="LinkedIn"/></a>
+  <a href="mailto:minipachru@gmail.com"><img class="footer_m" src="https://imgur.com/6WNP8MB.png" alt="Mail"></a>
   </div>
 </footer>
 </body>
